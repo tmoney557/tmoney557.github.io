@@ -1,8 +1,14 @@
 body {
-  background-color: lightblue;
+  background-color: lightgreen;
 }
 
 h1 {
-  color: navy;
+  color: red;
   margin-left: 20px;
+}
+
+#myDiv{
+  background-color: yellow
+  border-style: dotted;
+  border-color: white;
 }
