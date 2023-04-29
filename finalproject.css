@@ -1,13 +1,14 @@
 body {
     background color: black;
-    }
+}
     
 hl {
   color: yellow;
-  margin-left: 30;
+  margin-left: 30px;
 }
 
 #myDiv{
   background-color: yellow;
   border-style: dotted;
   border-color: white;
+}
