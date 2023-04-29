@@ -24,24 +24,23 @@
 <meta charset="UTF-8">
 <title>Fizz Buzz</title>
 <script>
-Function Fizzbuzz() {
-  var d = &quot;&quot;;
-  var displayHTML = &quot;&quot;;
+"Function Fizzbuzz() {
+  "var d = &quot;&quot;;
+  "var displayHTML = &quot;&quot;;
+  "for (i = 1; i &lt; 101; i++) {
+  "if (i % 3 === 0 &amp;&amp; i % 5 === 0) {
+ " d = &quot;FizzBuzz&quot;;
+" } else if (i % 5 === 0) {
+ "d = &quot;Buzz&quot;;
+ "} else if (i % 3 === 0) {
+  " d = &quot;Fizz&quot;;
+   "} else {
+   "d = &quot;&quot;;
+   " }
 
-  for (i = 1; i &lt; 101; i++) {
-    if (i % 3 === 0 &amp;&amp; i % 5 === 0) {
-      d = &quot;FizzBuzz&quot;;
-    } else if (i % 5 === 0) {
-      d = &quot;Buzz&quot;;
-    } else if (i % 3 === 0) {
-      d = &quot;Fizz&quot;;
-    } else {
-      d = &quot;&quot;;
-    }
-
-    displayHTML += &quot;<p>&quot; + i + &quot;:&quot; + d + &quot;</p>&quot;;
+  "displayHTML += &quot;<p>&quot; + i + &quot;:&quot; + d + &quot;</p>&quot;;
   }
-  display.insertAdjacentHTML(&#39;afterend&#39;, displayHTML); 
+ "display.insertAdjacentHTML(&#39;afterend&#39;, displayHTML); 
 }
 
 
