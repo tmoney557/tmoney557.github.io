@@ -1,14 +1,12 @@
-body {
-    background color: black;
-}
-    
-hl {
-  color: yellow;
-  margin-left: 30px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="finalproject.css">
+</head>
+<body>
 
-#myDiv{
-  background-color: yellow;
-  border-style: dotted;
-  border-color: white;
-}
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
