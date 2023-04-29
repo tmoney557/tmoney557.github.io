@@ -13,5 +13,5 @@
 <p>Page 1: <a href="Beginnings.md">Beginnings</a></p>
 <p>Page 2: <a href="Hobbies.md">Hobbies</a></p>
 <p>Page 3: <a href="school.md">School</a> </p>
-<p>Page 5: <a href="coding.md">Coding</a></p>
+<p>Page 5: <a href="Coding.md">Coding</a></p>
 </body></html>
